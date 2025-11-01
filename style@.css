@@ -8,11 +8,11 @@ body{
     margin: 0;
 }
 header {
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    position: fixed;
+    /* position: fixed; */
     background-color: #f0ebeb;
     width: 206vh;
     height: 90px;
@@ -448,7 +448,7 @@ footer {
     text-align: center;
     gap: 15px;
 }
-            
+         
 .disclaimer {
     text-align: center;
    }
