@@ -1,0 +1,78 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    background-color: #f7f1f1;
+}
+form{
+    height: 420px;
+    width: 300px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 0px;
+}
+h1{
+    font-weight: 500;
+    color: #007bff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+input{
+    width: 220px; 
+    height: 20px;
+    padding: 7px 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #007bff;
+    outline: none;
+    cursor: pointer;
+}
+input:hover{
+    border: 5px snow;
+}
+form p a{
+    height: 200px;
+    white-space: 10px;
+    font-size: 12px;
+    text-decoration: none;
+    color:#007bff;
+}
+button{
+    margin-top: 20px;
+    width: 250px;
+    height: 40px;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    color: #007bff;
+    font: style 2px;
+    cursor: pointer;
+}
+button:active{
+    transform: scale(0.95);
+    cursor: pointer;
+}
+button:hover{
+    background-color: #262525;
+    color: #1ee892;
+    cursor: pointer;
+}
+.sign-in{
+    margin-top: 8px;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.sign-in>a{
+    transition: input 2s ease;
+    color: #1ee892;
+}
+
